@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="helloDjApp\admin.py" />
+    <Compile Include="helloDjApp\apps.py" />
+    <Compile Include="helloDjApp\migrations\__init__.py" />
+    <Compile Include="helloDjApp\models.py" />
+    <Compile Include="helloDjApp\tests.py" />
+    <Compile Include="helloDjApp\views.py" />
+    <Compile Include="helloDjApp\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject1\__init__.py" />
     <Compile Include="DjangoWebProject1\settings.py" />
@@ -37,10 +44,15 @@
     <Compile Include="DjangoWebProject1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="helloDjApp\templates\helloDjApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="helloDjApp\" />
+    <Folder Include="helloDjApp\migrations\" />
+    <Folder Include="helloDjApp\templates\" />
+    <Folder Include="helloDjApp\templates\helloDjApp\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
