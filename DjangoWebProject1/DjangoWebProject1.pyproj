@@ -47,6 +47,7 @@
     <Content Include="helloDjApp\templates\helloDjApp\about.html" />
     <Content Include="helloDjApp\static\site.css" />
     <Content Include="helloDjApp\templates\helloDjApp\index.html" />
+    <Content Include="helloDjApp\templates\helloDjApp\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

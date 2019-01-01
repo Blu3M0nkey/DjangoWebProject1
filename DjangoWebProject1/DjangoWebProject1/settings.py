@@ -123,6 +123,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+#allows Django to produce or serve CSS JS etc. files to the browser without needing any other code. 
 
 STATIC_URL = '/static/'
 
