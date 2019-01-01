@@ -24,6 +24,6 @@ urlpatterns = [
 
     url(r'^$', helloDjApp.views.index, name='index'),
     url(r'^home$', helloDjApp.views.index, name='home'),
-
+    url(r'^about$', helloDjApp.views.about, name='about'),
 
 ]

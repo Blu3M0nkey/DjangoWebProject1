@@ -44,6 +44,8 @@
     <Compile Include="DjangoWebProject1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="helloDjApp\templates\helloDjApp\about.html" />
+    <Content Include="helloDjApp\static\site.css" />
     <Content Include="helloDjApp\templates\helloDjApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -51,6 +53,7 @@
     <Folder Include="DjangoWebProject1\" />
     <Folder Include="helloDjApp\" />
     <Folder Include="helloDjApp\migrations\" />
+    <Folder Include="helloDjApp\static\" />
     <Folder Include="helloDjApp\templates\" />
     <Folder Include="helloDjApp\templates\helloDjApp\" />
   </ItemGroup>

@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'helloDjApp',
+
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -60,7 +62,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
+        'APP_DIRS': True, #look for templetes in an apps template folder
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
